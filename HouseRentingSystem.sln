@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRentingSystem", "HouseRentingSystem\HouseRentingSystem.csproj", "{9585140B-916D-4D97-9577-338B91028D9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseRentingSystem", "HouseRentingSystem\HouseRentingSystem.csproj", "{9585140B-916D-4D97-9577-338B91028D9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRentingSystem.Core", "HouseRentingSystem.Core\HouseRentingSystem.Core.csproj", "{EBB00D56-5EDF-4982-943D-D1A5E7F39C53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRentingSystem.Infrastructure", "HouseRentingSystem.Infrastructure\HouseRentingSystem.Infrastructure.csproj", "{2C46C069-1FF6-47EC-A5D2-615115A4B9C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{9585140B-916D-4D97-9577-338B91028D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9585140B-916D-4D97-9577-338B91028D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9585140B-916D-4D97-9577-338B91028D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB00D56-5EDF-4982-943D-D1A5E7F39C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB00D56-5EDF-4982-943D-D1A5E7F39C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB00D56-5EDF-4982-943D-D1A5E7F39C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB00D56-5EDF-4982-943D-D1A5E7F39C53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C46C069-1FF6-47EC-A5D2-615115A4B9C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C46C069-1FF6-47EC-A5D2-615115A4B9C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C46C069-1FF6-47EC-A5D2-615115A4B9C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C46C069-1FF6-47EC-A5D2-615115A4B9C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
